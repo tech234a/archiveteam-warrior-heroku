@@ -1,0 +1,5 @@
+build:
+  docker:
+    worker: atdr.meo.ws/archiveteam/warrior-dockerfile
+run:
+  worker: python start.py --disable-web-server
