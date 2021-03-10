@@ -1,6 +1,6 @@
 {
   "name": "Archive Team Warrior (Unofficial/Experimental Deployment Method)",
-  "description": "The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do! You can learn more about the Archive Team Warrior at https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior.",
+  "description": ["The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do! You can learn more about the Archive Team Warrior at https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior.", "this is a test line"],
   "website": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
   "success_url": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
   "keywords": ["archiving", "preservation", "web archiving", "archive", "Archive Team", "community", "project", "script", "run", "collaborative effort", "volunteer"],
