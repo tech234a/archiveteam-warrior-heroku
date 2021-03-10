@@ -1,9 +1,7 @@
 {
   "name": "Archive Team Warrior (Unofficial/Experimental Deployment Method)",
-  "description": "DOWNLOADER refers to the name that appears on the dashboard.",
-  "repository": "https://github.com/tech234a/archiveteam-warrior-heroku",
+  "description": "The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do!",
   "website": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
-  "image": "atdr.meo.ws/archiveteam/warrior-dockerfile",
   "logo": "https://wiki.archiveteam.org/images/f/f3/Archive_team.png",
   "formation": {
     "worker": {
