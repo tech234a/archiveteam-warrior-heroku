@@ -3,7 +3,7 @@
   "description": "The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do! You can learn more about the Archive Team Warrior at https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior.",
   "website": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
   "success_url": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
-  "keywords": ["archiving", "preservation", "web archiving", "archive", "Archive Team", "community", "project", "script", "run", "collaborative effort", "volunteer"],
+  "keywords": ["archiving", "preservation", "web archiving", "archive", "Archive Team", "community", "project", "script", "run", "collaborative effort", "volunteer", "team", "leaderboard", "leader", "distributed", "HTTP", "HTTPS", "save", "websites", "communities"],
   "logo": "https://wiki.archiveteam.org/images/f/f3/Archive_team.png",
   "formation": {
     "worker": {
