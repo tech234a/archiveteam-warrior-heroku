@@ -15,4 +15,5 @@
           "SELECTED_PROJECT": {"description": "This is the project to run. The recommended value is `auto`, which runs the most urgent project at a given time. Other values include `urlteam2`, `reddit`, `mediafire`, and `pastebin`. All project names can be found from the URL paths to a project's tracker on https://tracker.archiveteam.org.", "value": "auto"},
           "CONCURRENT_ITEMS": {"description": "The number of items to process simultaneously. Default/recommended value 3, minimum value 1, maximum value 20.", "value": "3"},
           "SHARED_RSYNC_THREADS": {"description": "Configuration for submitting downloaded files. Recommended to leave default value of 20.", "value": "20"}
+  }
 }
