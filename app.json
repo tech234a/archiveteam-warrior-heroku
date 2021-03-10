@@ -1,6 +1,6 @@
 {
   "name": "Archive Team Warrior (Unofficial/Experimental Deployment Method)",
-  "description": ["The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do! You can learn more about the Archive Team Warrior at https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior.", "this is a test line"],
+  "description": "The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do! You can learn more about the Archive Team Warrior at https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior.",
   "website": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
   "success_url": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
   "keywords": ["archiving", "preservation", "web archiving", "archive", "Archive Team", "community", "project", "script", "run", "collaborative effort", "volunteer"],
@@ -13,9 +13,9 @@
   },
   "stack": "container",
   "env": {
-          "DOWNLOADER": {"description": "This is the nickname that appears on the tracker leaderboards at https://tracker.archiveteam.org.", "value": "Unnamed-Heroku"},
-          "SELECTED_PROJECT": {"description": "This is the project to run. The recommended value is `auto`, which runs the most urgent project at a given time. Other values include `urlteam2`, `reddit`, `mediafire`, and `pastebin`. All project names can be found from the URL paths to a project's tracker on https://tracker.archiveteam.org.", "value": "auto"},
-          "CONCURRENT_ITEMS": {"description": "The number of items to process simultaneously. Default/recommended value 3, minimum value 1, maximum value 20.", "value": "3"},
-          "SHARED_RSYNC_THREADS": {"description": "Configuration for submitting downloaded files. Recommended to leave default value of 20.", "value": "20"}
+          "DOWNLOADER": {"description": "The nickname that appears on the tracker leaderboards at https://tracker.archiveteam.org.", "value": "Unnamed-Heroku"},
+          "SELECTED_PROJECT": {"description": "The project to run. The recommended value is `auto`, which runs the most urgent project at a given time. Other values include `urlteam2`, `reddit`, `mediafire`, and `pastebin`. Additional project names can be found from the URL paths to a project's tracker on https://tracker.archiveteam.org.", "value": "auto"},
+          "CONCURRENT_ITEMS": {"description": "The number of items to process simultaneously. The minimum value is 1, the default/recommended value is 3, the maximum recommended value is 5, and the maximum allowed value is 20. IMPORTANT: Heroku may suspend your account (and any other accounts you may have, even if you did not use all of the accounts to run the Archive Team Warrior) if you use a really large amount of bandwidth over a short period of time. In general, deploying only 1 Warrior to your account and running it with 5 or fewer concurrent items should be fine.", "value": "3"},
+          "SHARED_RSYNC_THREADS": {"description": "(For advanced users) Configuration for submitting downloaded files. Recommended to leave default value of 20.", "value": "20"}
   }
 }
