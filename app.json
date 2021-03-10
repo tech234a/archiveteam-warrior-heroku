@@ -12,5 +12,5 @@
     }
   },
   "stack": "container",
-  "env": {"DOWNLOADER": {"value": "Unnamed-Heroku"}, "SELECTED_PROJECT": {"value": "auto"}, "CONCURRENT_ITEMS": {"value": "3"}, "SHARED_RSYNC_THREADS": {"value": "20"}, "WARRIOR_ID": {}}
+  "env": {"DOWNLOADER": {"value": "Unnamed-Heroku"}, "SELECTED_PROJECT": {"value": "auto"}, "CONCURRENT_ITEMS": {"value": "3"}, "SHARED_RSYNC_THREADS": {"value": "20"}, "WARRIOR_ID": {"required": false}}
 }
