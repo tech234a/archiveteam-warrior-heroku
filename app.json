@@ -1,6 +1,6 @@
 {
   "name": "Archive Team Warrior (Unofficial/Experimental Deployment Method)",
-  "description": "The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do!",
+  "description": "The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do!\n\nYou can learn more about the Archive Team Warrior at https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior.\n\nSome important notes about running the Archive Team Warrior on Heroku\n- Free, unverified accounts have a pool of 550 hours per month, which means that your Warrior will only run for about 74% to 82% of a given month if no other apps are active on your Heroku account. To allow your Warrior for the full month for free, you can verify your credit card with Heroku, which increases your pool to 1000 hours per month.\n- Heroku may suspend your account (and any other accounts you may have) if you use a really large amount of bandwidth over a short period of time. In general, deploying only 1 Warrior to your account and running it with 5 or fewer concurrent items should be fine.\n- While the Heroku Warrior image can update project scripts and download new ones, it cannot automatically update project script dependencies. This means that many new and some updated projects may eventually not run on your Warrior. Because of this, it is recommended to delete your Warrior app from Heroku and re-deploy it (using the same steps you are using now) every 1-2 months. (This problem with updating dependencies only applies to Heroku.)",
   "website": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
   "logo": "https://wiki.archiveteam.org/images/f/f3/Archive_team.png",
   "formation": {
@@ -10,10 +10,9 @@
     }
   },
   "stack": "container",
-  "env": {"DOWNLOADER": {
-          "description": "This is the nickname that appears on the tracker leaderboards at https://tracker.archiveteam.org.", "value": "Unnamed-Heroku"},
+  "env": {
+          "DOWNLOADER": {"description": "This is the nickname that appears on the tracker leaderboards at https://tracker.archiveteam.org.", "value": "Unnamed-Heroku"},
           "SELECTED_PROJECT": {"description": "This is the project to run. The recommended value is `auto`, which runs the most urgent project at a given time. Other values include `urlteam2`, `reddit`, `mediafire`, and `pastebin`. All project names can be found from the URL paths to a project's tracker on https://tracker.archiveteam.org.", "value": "auto"},
           "CONCURRENT_ITEMS": {"description": "The number of items to process simultaneously. Default/recommended value 3, minimum value 1, maximum value 20.", "value": "3"},
-          "SHARED_RSYNC_THREADS": {"description": "Configuration for submitting downloaded files. Recommended to leave default value of 20.", "value": "20"},
-          "WARRIOR_ID": {"description": "The ID number of your Warrior. Recommended to leave blank.", "required": false}}
+          "SHARED_RSYNC_THREADS": {"description": "Configuration for submitting downloaded files. Recommended to leave default value of 20.", "value": "20"}
 }
