@@ -3,7 +3,7 @@
   "description": "DOWNLOADER refers to the name that appears on the dashboard.",
   "repository": "https://github.com/tech234a/archiveteam-warrior-heroku",
   "website": "https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior",
-  "buildpacks": [{"url": "heroku/python"}],
+  "image": "atdr.meo.ws/archiveteam/warrior-dockerfile",
   "logo": "https://wiki.archiveteam.org/images/f/f3/Archive_team.png",
   "formation": {
     "worker": {
