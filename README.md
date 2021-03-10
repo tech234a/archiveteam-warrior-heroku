@@ -1,6 +1,4 @@
-# archiveteam-warrior-heroku
-Unofficial experimental easy deployment of Archive Team Warrior to Heroku
-
+# Archive Team Warrior (Unofficial/Experimental Easy Heroku Deployment Method)
 The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do!
 
 You can learn more about the Archive Team Warrior at https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior.
