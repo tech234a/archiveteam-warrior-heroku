@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: python start.py --disable-web-server
+  worker: python start.py
